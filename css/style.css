@@ -134,6 +134,14 @@ section{
     grid-column: 2;
 }
 
+#searchInput{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 13px;
+}
+
 /* wrapper */
 #menu .wrapper{
     display: flex;
@@ -352,7 +360,7 @@ background: linear-gradient(49deg, rgba(86,254,255,1) 0%, rgba(0,64,252,1) 100%)
 
     #menu .card img{
         width: 90%;
-        height: 80%;
+        height: 75%;
     }
 
     #menu article h1{
