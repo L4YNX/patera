@@ -315,7 +315,7 @@ background: linear-gradient(49deg, rgba(86,254,255,1) 0%, rgba(0,64,252,1) 100%)
         box-sizing: border-box;
         height: auto;
         width: 100%;
-        padding: 20px 30px;
+        padding: 20px 20px;
         justify-content: flex-start;
     }
     .open-sidebar{
@@ -368,6 +368,11 @@ background: linear-gradient(49deg, rgba(86,254,255,1) 0%, rgba(0,64,252,1) 100%)
     #menu .wrapper{
         width: 225px;
         height: 255px;
+    }
+
+    #menu .card img{
+        width: 90%;
+        height: 75%;
     }
 
     #menu .card{
