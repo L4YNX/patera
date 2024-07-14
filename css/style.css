@@ -367,12 +367,12 @@ background: linear-gradient(49deg, rgba(86,254,255,1) 0%, rgba(0,64,252,1) 100%)
 @media (max-width: 430px){
     #menu .wrapper{
         width: 225px;
-        height: 250px;
+        height: 255px;
     }
 
     #menu .card{
         width: 225px;
-        height: 240px;
+        height: 245px;
     }
 
     #menu article h1{
