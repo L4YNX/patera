@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root{
     --maincolor: #ece7d3;
     --secondcolor: 000;
 }
 
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: poppins;
     margin: 0;
     padding: 0;
 }
@@ -173,6 +175,41 @@ section{
 
 #menu .wrapper:first-child{
     padding-left: 20px;
+}
+
+#contact{
+    height: 130px;
+    text-align: center;
+}
+
+#contact h2{
+    margin-bottom: 20px;
+}
+
+#contact ul{
+    margin: 0 auto;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: large;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#contact ul .ig{
+    background: rgb(2,0,36);
+    background: linear-gradient(25deg, rgba(2,0,36,1) 0%, rgba(255,128,0,1) 0%, rgba(255,0,142,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#contact ul .fb{
+    background: rgb(86,254,255);
+background: linear-gradient(49deg, rgba(86,254,255,1) 0%, rgba(0,64,252,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* medias */
