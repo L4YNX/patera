@@ -77,8 +77,7 @@ section{
     z-index: 1;
 }
 
-/* articles */
-
+/* home */
 #home, #menu{
     display: flex;
     align-items: center;
@@ -108,16 +107,20 @@ section{
     margin-bottom: 40px;
 }
 
+/* menu */
+#menu{
+    margin: 0 auto;
+}
+
 #menu .card img{
     width: 100%;
-    height: 90%;
+    height: 80%;
     background-color: #888;
 }
 
 #menu .grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 200px;
+    display: flex;
+    flex-direction: column;
 }
 
 #menu .grid-cold{
@@ -132,12 +135,12 @@ section{
 
 /* wrapper */
 #menu .wrapper{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 650px;
-    height: 500px;
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 340px;
     padding: 10px;
-    gap: 25px;
+    gap: 20px;
     overflow-y: auto;
     scroll-snap-type: y mandatory;
     cursor: pointer;
@@ -162,8 +165,8 @@ section{
     scroll-snap-align: center;
     box-sizing: border-box;
     width: 300px;
-    height: 400px;
-    padding: 20px 30px;
+    height: 335px;
+    padding: 10px 30px;
     flex-shrink: 0;
     background-color: #e2dec9;
     border-radius: 14px;
@@ -177,6 +180,7 @@ section{
     padding-left: 20px;
 }
 
+/* footer */
 #contact{
     height: 130px;
     text-align: center;
@@ -229,7 +233,7 @@ background: linear-gradient(49deg, rgba(86,254,255,1) 0%, rgba(0,64,252,1) 100%)
         display: flex;
         gap: 20px;
         width: 930px;
-        height: 300px;
+        height: 305px;
         overflow-x: auto;
         scroll-snap-type: x mandatory;
         cursor: grab;
@@ -238,9 +242,14 @@ background: linear-gradient(49deg, rgba(86,254,255,1) 0%, rgba(0,64,252,1) 100%)
     #menu .card{
         scroll-snap-align: center;
         width: 300px;
-        height: 290px;
-        padding: 10px;
+        height: 295px;
+        padding: 15px;
     }
+
+    #menu .card img{
+        width: 90%;
+        height: 80%;
+    };
 
     #menu article h1{
         font-size: 3em;
@@ -256,7 +265,7 @@ background: linear-gradient(49deg, rgba(86,254,255,1) 0%, rgba(0,64,252,1) 100%)
     }
 
     #menu .wrapper{
-        width: 620px;
+        width: 610px;
     }
 
     .grid-cold{
@@ -331,13 +340,13 @@ background: linear-gradient(49deg, rgba(86,254,255,1) 0%, rgba(0,64,252,1) 100%)
     }
 
     #menu .wrapper{
-        width: 280px;
-        height: 300px;
+        width: 260px;
+        height: 290px;
     }
 
     #menu .card{
-        width: 280px;
-        height: 290px;
+        width: 260px;
+        height: 280px;
     }
 
     #menu .card img{
@@ -356,16 +365,16 @@ background: linear-gradient(49deg, rgba(86,254,255,1) 0%, rgba(0,64,252,1) 100%)
 
 @media (max-width: 430px){
     #menu .wrapper{
-        width: 230px;
-        height: 265px;
+        width: 225px;
+        height: 250px;
     }
 
     #menu .card{
-        width: 230px;
-        height: 255px;
+        width: 225px;
+        height: 240px;
     }
 
     #menu article h1{
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
 }
