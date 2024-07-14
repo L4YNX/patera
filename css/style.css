@@ -188,14 +188,18 @@ section{
 
 #contact ul{
     margin: 0 auto;
-    width: 30%;
+    width: clamp(40%,60%);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     list-style: none;
-    font-size: large;
+    font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+#contact ul li{
+    margin: 0 10px;
 }
 
 #contact ul .ig{
@@ -271,6 +275,10 @@ background: linear-gradient(49deg, rgba(86,254,255,1) 0%, rgba(0,64,252,1) 100%)
 
     #menu .card{
         width: 300px;
+    }
+
+    #contact ul {
+        font-size: 14px;
     }
 }
 
