@@ -177,7 +177,7 @@ section{
     height: 335px;
     padding: 10px 30px;
     flex-shrink: 0;
-    background-color: #e2dec9;
+    background-color: white;
     border-radius: 14px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
